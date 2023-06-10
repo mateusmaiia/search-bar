@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap')
+
 body {
   padding: 0;
   margin: 0;
@@ -27,9 +29,15 @@ body {
   outline: none;
   padding: 0;
   color: #f0f5fb;
-  font-size: 16px;
+  font-size: 16px;s
   line-heigth: 40px;
   width: 0;
+  transition: 0.5s;
+  font-family: "Open Sans", "Helvetica Neue",
+}
+
+::-webkit-input-placeholder {
+  color: #1e3754;
 }
 
 .search-btn {
@@ -40,7 +48,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 0.5s;
 }
 
-.search-box:hover > .search.text {
+.search-box:hover > .search-text {
+  width: 15rem;
+  padding: 0 0.375rem;
+}
+
+.search-box:hover > .search-btn{
+  background: #f0f5fb;
 }
