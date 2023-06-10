@@ -2,7 +2,7 @@ body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  heigth: 100vh;
+  height: 100vh;
   width: 100vw;
   background: linear-gradient(#79e4a6, #1bc296);
 }
@@ -13,7 +13,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   background: #0a1b2d;
-  heigth: 40px;
+  height: 40px;
   padding: 10px;
   border-radius: 40px;
   display: flex;
@@ -33,11 +33,14 @@ body {
 }
 
 .search-btn {
-  width: 40px
-  heigth: 40px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   background: #0a1b2d;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.search-box:hover > .search.text {
 }
